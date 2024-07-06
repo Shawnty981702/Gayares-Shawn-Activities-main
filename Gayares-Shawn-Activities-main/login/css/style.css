@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+
+}
+h1 {
+    color: pink;
+    background-color: beige;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+label {
+    background-color: pink;
+    color: beige;
+    font-size: 30px;
+}
+
+input{
+    background-color: beige;
+}
+#Username {
+    font-style: italic;
+}
+#Password {
+    font-style: italic;
+}
+#Name {
+    font-style: italic;
+}
+#Gender {
+    font-style: italic;
+}
+
+button{
+    color: beige;
+    background-color: pink;
+}
+.blink {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}

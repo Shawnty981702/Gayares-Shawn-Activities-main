@@ -1,0 +1,40 @@
+.bb{
+    height: 700px;
+    width: 500px;
+    background-color: beige;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+.digi{
+    background-color: pink;
+    height: 10vh;
+    width: 60vh;
+    font-size: 50px;
+    color: black;
+    text-align: end;
+    padding: 5px;
+}
+.bbh{
+flex: 1;
+border: 2px solid aqua;
+padding: 30px;
+}
+.bbb{
+flex:6;
+border: 2px solid aqua;
+padding: 10px;
+flex-direction: row;
+display: flex;
+flex-wrap: wrap;
+gap: 1vh;
+}
+.bl{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    background-color: pink;
+    height: 15vh;
+    width: 15vh;
+    
+}
